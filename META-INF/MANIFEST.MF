@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DictQueryWeb
+Bundle-SymbolicName: DictQueryWeb
+Bundle-Version: 1.0.0.init
+Bundle-Activator: org.daniel.dictqueryweb.Activator
+Bundle-Vendor: Daniel
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: javax.servlet;version="2.6.0",
+ javax.servlet.http;version="2.6.0",
+ org.daniel.dictquery.query,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.service.http;version="1.2.1"
